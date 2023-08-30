@@ -37,7 +37,7 @@ const dialogStyle = {
 const ChatDialog = () => {
 
     const { person } = useContext(UserContext);
-    console.log(person);
+    
     return (
         <Dialog 
             open={true} 
